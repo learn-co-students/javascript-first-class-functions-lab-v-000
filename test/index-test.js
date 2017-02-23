@@ -77,6 +77,7 @@ describe('index', function() {
 
       expect(triplerWithBind).toExist();
       expect(triplerWithBind).toBeA('function');
+  
     });
   });
 });
