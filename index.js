@@ -12,7 +12,7 @@ function createMultiplier(multiplierValue){
 
 
   return function(e){
-    console.log(parseInt(e) * multiplierValue)
+    return e * multiplierValue
   }
 }
 
