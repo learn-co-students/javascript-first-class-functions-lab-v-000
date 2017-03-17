@@ -3,23 +3,16 @@ function countdown(callback) {
 }
 
 function createMultiplier(multiplierValue) {
-  return function(num) {
-    return num * multiplierValue
+  return function(value) {
+    return value * multiplierValue
   }
 }
 
-function doubler(num) {
-  return num * 2
-}
-
-function tripler(num) {
-  return num * 3
-}
-
 function multiplier(multiplierValue, value) {
-  return value * multiplierValue
+  return multiplierValue * value
 }
 
+var doubler = createMultiplier(2)
+var tripler = createMultiplier(3)
 var doublerWithBind = multiplier.bind(null, 2)
-
 var triplerWithBind = multiplier.bind(null, 3)
