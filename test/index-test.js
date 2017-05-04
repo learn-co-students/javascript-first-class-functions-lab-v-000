@@ -1,6 +1,7 @@
 describe('index', function() {
   describe('`countdown` function', function () {
     before(function() {
+      "use strict"
       let useFakeTimers = null;
 
       if (typeof sinon === 'undefined') {
