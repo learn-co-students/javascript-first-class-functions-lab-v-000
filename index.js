@@ -16,6 +16,6 @@ function multiplier(first, second) {
 	return first * second
 }
 
-var doublerWithBind = multiplier.bind(null, 2, 5);
+var doublerWithBind = multiplier.bind(null, 2);
 
-var triplerWithBind = multiplier.bind(null, 3, 7);
+var triplerWithBind = multiplier.bind(null, 3);
