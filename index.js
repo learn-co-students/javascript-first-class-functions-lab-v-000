@@ -12,7 +12,7 @@ var doubler = createMultiplier(2)
 var tripler = createMultiplier(3)
 
 function multiplier(multiplierValue, value) {
-  return multiplier(Value * value)
+  return multiplier(multiplierValue * value)
 }
 
 var doublerWithBind = multiplier.bind(null, 2)
