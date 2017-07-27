@@ -31,7 +31,7 @@ didn't use a callback, our program would continue right away instead of waiting 
 ## Exercise 2 — Playing Scrabble
 ![Scrabble](http://www.bolsboardgames.com/scrabble.jpg)
 
-Let's say we're trying to recreate Scrabble in JavaScript. Some board tiles can give us double or triple letter score.
+Let's say we're trying to recreate Scrabble in JavaScript. Some board tiles can give us double or triple letter score.z
 Let's create a helper function that takes a number (let's call it the `multiplierValue`). This function then **returns a
 function** that multiplies a given value by the `multiplierValue`. In your code, do the following:
 
