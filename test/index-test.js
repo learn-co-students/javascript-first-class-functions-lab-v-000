@@ -76,6 +76,7 @@ describe('index', function() {
       expect(doublerWithBind).toBeA('function');
 
       expect(triplerWithBind).toExist();
+      debugger;
       expect(triplerWithBind).toBeA('function');
     });
   });
