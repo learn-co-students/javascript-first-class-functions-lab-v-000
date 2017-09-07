@@ -1,17 +1,19 @@
-// Exercise 1 - The final countdown
+
 function countdown(callback) {
  window.setTimeout(() => callback(), 2000);
 }
 
-function vocals() {
- alert("It's the final countdown!");
+function createMultiplier(multiplyValue) {
+  return function (value) {
+    return multiplyValue * value;
+  }
 }
 
-function cue() {
- countdown(vocals);
+function multiplier(a, b) {
+  return a * b;
 }
 
-// Exercise 2 - Playing Scrabble
-function createMultiplier() {
-
-}
+var doubler = createMultiplier(2);
+var tripler = createMultiplier(3);
+var doublerWithBind = multiplier.bind(null, 2);
+var triplerWithBind = multiplier.bind(null, 3);
