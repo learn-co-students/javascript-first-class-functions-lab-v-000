@@ -1,4 +1,5 @@
 describe('index', function() {
+  "use strict";
   describe('`countdown` function', function () {
     before(function() {
       let useFakeTimers = null;
@@ -10,6 +11,7 @@ describe('index', function() {
       }
 
       this.clock = useFakeTimers();
+
     })
 
     after(function() {
@@ -33,6 +35,7 @@ describe('index', function() {
   });
 
   describe('`createMultiplier` function', function () {
+    "use strict"
     it('should exist', function () {
       expect(createMultiplier).toExist();
     });
