@@ -8,7 +8,7 @@ var createMultiplier = (multiplierValue) => {
   }
 }
 
-var   multiplier = (val) => {
+var  multiplier = (val) => {
   return multiplierValue * val;
 }
 
